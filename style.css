@@ -1,85 +1,106 @@
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
 }
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
+nav{
     text-align: center;
-}
 
-header h1 {
-    margin: 0;
-    font-size: 2em;
+    background-color: grey;
+    padding: 20px;
 }
-
-header p {
-    margin: 0.5em 0 0;
+nav ol{
+     list-style: none;
+     /* padding: 20px; */
+     margin: 0 auto;
+     padding: 0;
 }
-
-section {
-    padding: 2em;
-    max-width: 800px;
-    margin: auto;
+nav ol li{
+    margin: 0 10px;
 }
-
-#about img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 1em;
-}
-
-#skills ul {
-    list-style: none;
-    padding: 0;
-}
-
-#skills li {
-    background: #333;
-    color: #fff;
-    display: inline-block;
-    margin: 0.5em;
-    padding: 0.5em 1em;
-    border-radius: 3px;
-}
-
-#projects .project {
-    margin-bottom: 2em;
-}
-
-#projects img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 1em;
-}
-
-#resume a {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    padding: 0.5em 1em;
-    border-radius: 3px;
+nav ol li a{
+    color: white;
     text-decoration: none;
+    font-size: 1.2em;
 }
-
-#contact p {
-    margin: 0.5em 0;
-}
-
-footer {
-    background: #333;
-    color: #fff;
+.header-content{
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+.header-content img{
+    max-width: 250px;
+    border-radius: 50px;
+    margin: 10px 0;
+
+    
+}
+.header-content h1, .header-content p {
+    margin: 0.5rem 0;
+}
+.content{
+    text-align: center;
+    background-color: #ffffff; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+}
+
+.skills{
+    text-align: center;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 0.5%;
+}
+.skill{
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: 10px;
+    color: blueviolet;
+}
+.resume{
+    text-align: center;
+    background-color: rgb(97, 95, 238) ;
+    margin:10px;
+    line-height: 50px;
+    padding: 30px 0;
+    color: aqua;
+    
+}
+button{
+    border-radius: 50px;
+    padding: 20px;
+   background-color: aquamarine;
+}
+
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.contact{
+    background-color: #ffbc4b; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;  
+}
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    color: #29a598;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #208479;
 }
